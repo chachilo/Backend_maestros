@@ -67,7 +67,7 @@ app.post('/registrar', async (req, res) => {
     }
 });
 
-const RECAPTCHA_SECRET_KEY = '6LeAWOcqAAAAAMPB4Ld_UD6m2oH6M-_FLF7LSDg6'; // Reemplaza con tu secret key
+const RECAPTCHA_SECRET_KEY = '6Ld_kOcqAAAAAALILq1G5pAZBqug3SyyAVGwIIBZ'; // Reemplaza con tu secret key
 
 app.post('/login', async (req, res) => {
   const { email, password, recaptchaValue } = req.body;
